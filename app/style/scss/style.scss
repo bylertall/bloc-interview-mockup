@@ -1,0 +1,239 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+  overflow-x: hidden; 
+}
+
+nav {
+  z-index: 10;
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  .logo { 
+    padding: 15px 25px;
+    display: inline-block;
+    a {
+      font-family: 'Grand Hotel', cursive;
+      font-size: 30px;
+      color: #434A54;
+      text-decoration: none;
+    }
+  }
+  .sign-in {
+    color: #434A54;
+    font-weight: 400;
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+    padding: 20px 35px;
+  }
+}
+
+header {
+  height: 850px;
+  background: #6895E2 url("./../images/background.png") no-repeat top left;
+  background-size: cover;
+  position: relative;
+  .tagline {
+    position: relative;
+    top: 295px;
+    color: #FFF;
+    font-size: 48px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  .access-btn {
+    position: relative;
+    top: 395px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 40px;
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    border-radius: 5px;
+    border: none;
+    background-color: #434A54;
+  }
+}
+
+/* FIRST CONTENT AREA */
+.how-it-works {
+  height: 550px;
+  background-color: #FFF;
+  position: relative;
+  .explanation {
+    max-width: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 175px;
+    left: 10%;
+    h3 {
+      color: #434A54;
+      font-size: 48px;
+      margin-bottom: 35px;
+    }
+    p {
+      color: #A7B4C4;
+      max-width: 70%;
+    }
+  }
+  .on-brandslip {
+    width: 35%;
+    position: absolute;
+    top: 100px;
+    right: 5%;
+    display: inline-block;
+    line-height: 25px;
+    li {
+      margin-bottom: 35px;
+    }
+    .profile-pic {
+      display: inline-block;
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+    }
+    .caption {
+      display: inline-block;
+      position: relative;
+      top: -20px;
+      left: 35px;
+      .person {
+        font-size: 20px;
+        color: #A7B4C4;
+      }
+      .followers {
+        font-size: 16px;
+        color: #46B8DA;
+      }
+    }
+  }
+}
+
+/* SECOND CONTENT AREA */
+.choose-medium {
+  height: 700px;
+  background-color: #A7B4C4;
+  position: relative;
+  .how-to {
+    width: 235px;
+    display: inline-block;
+    position: relative;
+    top: 75px;
+    left: 10%;
+    li {
+      margin-bottom: 55px;
+      .each-to-do {
+        i {
+          font-size: 48px;
+          color: #FFF;
+        }
+        h4 {
+          color: #FFF;
+          font-size: 20px;
+          font-weight: 600;
+          margin-bottom: 10px;
+        }
+        p {
+          color: #D3DAE2;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .choose-medium-container {
+    width: 410px;
+    position: absolute;
+    top: 225px;
+    right: 15%;
+    .choose-medium-title-container {
+      display: block;
+      text-align: center;
+      h3 {
+        color: #FFF;
+        font-size: 48px;
+      }
+      .subtitle {
+        color: #D3DAE2;
+        font-size: 16px;
+      }
+    }
+  }
+  .social-options {
+    display: block;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    i {
+      font-size: 48px;
+    }
+    .ion-social-youtube {
+      color: #DA4453;
+    }
+    .ion-social-instagram {
+      color: #2979AE;
+    }
+    .ion-social-snapchat {
+      color: #FFF;
+    }
+    span {
+      color: #FFF;
+      font-size: 16px;
+      position: relative;
+      bottom: 5px;
+      left: 20px;
+      vertical-align: middle;
+    }
+    .youtube {
+      display: inline-block;
+    }
+    .instagram {
+      display: inline-block;
+      position: relative;
+      left: 80px;
+    }
+    .snapchat {
+      position: relative;
+      top: 40px;
+      left: 75px;
+    }
+  }
+}
+
+footer {
+  height: 150px;
+  background-color: #434A54;
+  position: relative;
+  .footer-list {
+    display: inline-block;
+    margin-right: 55px;
+    vertical-align: top;
+    position: relative;
+    left: 70px;
+    top: 35px;
+    h5 {
+      font-size: 16px;
+      color: #D3DAE2;
+      margin-bottom: 10px;
+    }
+    ul {
+      li {
+        color: #FFF;
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+  }
+  .copyright {
+    position: absolute;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 300;
+    bottom: 20px;
+    right: 35px;
+  }
+}
