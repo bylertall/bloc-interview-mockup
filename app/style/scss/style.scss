@@ -66,9 +66,9 @@ header {
   background-color: #FFF;
   position: relative;
   .explanation {
-    max-width: 50%;
+    max-width: 40%;
     display: inline-block;
-    position: absolute;
+    position: relative;
     top: 175px;
     left: 10%;
     h3 {
@@ -82,10 +82,10 @@ header {
     }
   }
   .on-brandslip {
-    width: 35%;
-    position: absolute;
+    width: 45%;
+    float: right;
+    position: relative;
     top: 100px;
-    right: 5%;
     display: inline-block;
     line-height: 25px;
     li {
@@ -122,6 +122,7 @@ header {
   .how-to {
     width: 235px;
     display: inline-block;
+    float: left;
     position: relative;
     top: 75px;
     left: 10%;
@@ -147,7 +148,8 @@ header {
   }
   .choose-medium-container {
     width: 410px;
-    position: absolute;
+    float: right;
+    position: relative;
     top: 225px;
     right: 15%;
     .choose-medium-title-container {
